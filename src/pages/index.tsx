@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             </div>
           </Group>
 
-          <Text size="lg" style={{ marginTop: "0.5rem" }}>
+          <Text size="xl">
             I’m a full-stack developer who likes creating fun software and
             websites
           </Text>

@@ -10,19 +10,12 @@
 }
 
 .intro {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .pfpimage {
   display: flex;
   max-width: 100%;
-}
-
-@media only screen and (max-width: 337px) {
-  .pfpimage {
-    width: 100%;
-    justify-content: center;
-  }
 }
 
 .pfpcontainer {
@@ -32,6 +25,7 @@
   border: 2px solid #ffa64a;
   border-radius: 7%;
   transform: rotate(5deg);
+  margin: 1rem;
 
   &:hover {
     transform: rotate(0deg);
@@ -40,9 +34,16 @@
 }
 
 .name {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .subname {
   font-size: 1.75rem;
+}
+
+@media only screen and (max-width: 395px) {
+  .pfpimage {
+    width: 100%;
+    justify-content: center;
+  }
 }
