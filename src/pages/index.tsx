@@ -2,7 +2,7 @@ import styles from "../styles/Home.module.scss";
 
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Title, Image, Group } from "@mantine/core";
+import { Title, Text, Image, Group } from "@mantine/core";
 
 const Home: NextPage = () => {
   return (
@@ -18,25 +18,28 @@ const Home: NextPage = () => {
           <Group position="apart">
             <div>
               <Title className={styles.intro}>Hi, my name is</Title>
-              <Title className="name" color="#ffa64a">
-                Pat <span className="subname">( Patato )</span>
+              <Title className={styles.name} size="h1" color="#ffa64a">
+                Pat <span className={styles.subname}>( Patato )</span>
               </Title>
             </div>
             <div className={styles.pfpimage}>
-              <Image
-                width={130}
-                height={130}
-                src="/pfp.jpg"
-                alt="Profile Picture"
-                radius="md"
-              />
+              <div className={styles.pfpcontainer}>
+                <Image
+                  style={{ alignItems: "center" }}
+                  width={130}
+                  height={130}
+                  src="/pfp.jpg"
+                  alt="Profile Picture"
+                  radius="md"
+                />
+              </div>
             </div>
           </Group>
 
-          <p>
+          <Text size="lg" style={{ marginTop: "0.5rem" }}>
             I’m a full-stack developer who likes creating fun software and
             websites
-          </p>
+          </Text>
         </section>
       </main>
     </>

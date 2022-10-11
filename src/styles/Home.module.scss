@@ -14,12 +14,35 @@
 }
 
 .pfpimage {
-  border: 2px solid #ffa64a;
-  border-radius: 5%;
-  align-items: flex-end;
+  display: flex;
   max-width: 100%;
 }
 
+@media only screen and (max-width: 337px) {
+  .pfpimage {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.pfpcontainer {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  border: 2px solid #ffa64a;
+  border-radius: 7%;
+  transform: rotate(5deg);
+
+  &:hover {
+    transform: rotate(0deg);
+    filter: invert(1);
+  }
+}
+
+.name {
+  font-size: 3rem;
+}
+
 .subname {
-  font-size: 24px;
+  font-size: 1.75rem;
 }
