@@ -13,6 +13,10 @@
   font-size: 1.5rem;
 }
 
+.desc {
+  text-align: start;
+}
+
 .pfpimage {
   display: flex;
   max-width: 100%;
@@ -41,9 +45,13 @@
   font-size: 1.75rem;
 }
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 454px) {
   .pfpimage {
     width: 100%;
     justify-content: center;
+  }
+
+  .desc {
+    text-align: center;
   }
 }

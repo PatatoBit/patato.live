@@ -17,8 +17,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         withGlobalStyles
         withNormalizeCSS
         theme={{
-          fontFamily: "Satoshi, sans-serif",
-          headings: { fontFamily: "Satoshi, sans-serif" },
+          fontFamily: "Montserrat, sans-serif",
+          headings: { fontFamily: "Montserrat, sans-serif" },
           colorScheme: "dark",
           colors: {
             // override dark colors to change them for all components
