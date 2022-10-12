@@ -7,7 +7,7 @@ function Intro() {
   return (
     <>
       <main className="fullflex">
-        <section className={styles.container}>
+        <section className="container">
           <Group position="apart">
             <div>
               <Title className={styles.intro}>Hi, my name is</Title>
@@ -29,7 +29,7 @@ function Intro() {
             </div>
           </Group>
 
-          <Text className="desc" size="xl">
+          <Text className={styles.desc} size="xl">
             I’m a full-stack developer who likes creating fun software and
             websites
           </Text>
