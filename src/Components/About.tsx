@@ -22,6 +22,7 @@ function About() {
             create fun and useful websites and side projects.
           </Text>
           <Image
+            priority={true}
             width={880}
             height={192}
             src="https://raw.githubusercontent.com/PathonScript/PathonScript/output/snake.svg"
