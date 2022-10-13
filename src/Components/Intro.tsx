@@ -38,9 +38,6 @@ function Intro() {
             websites
           </Text>
         </section>
-        <p className={styles.scrollBtn} onClick={scrollToAbout}>
-          ( read more about me )
-        </p>
       </main>
     </>
   );
