@@ -17,9 +17,11 @@ function Projects() {
     <Container>
       <Carousel
         sx={{ maxWidth: "24rem" }}
-        mx="auto"
+        slideSize="90%"
+        slideGap="sm"
         height={300}
-        slidesToScroll={1}
+        withControls={false}
+        withIndicators
       >
         {projects.map((project) => (
           <Carousel.Slide key={project.title}>

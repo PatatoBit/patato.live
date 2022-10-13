@@ -52,7 +52,7 @@ function ProjectCard(props: Project) {
       </Card>
 
       <div className={styles.buttons}>
-        <Group>
+        <Group spacing="xs">
           {props.url && (
             <ActionIcon
               variant="filled"
