@@ -36,7 +36,12 @@ function ProjectCard(props: Project) {
         className={styles.container}
       >
         <Card.Section>
-          <Image src={props.imageURL} width={382} height={160} alt="Norway" />
+          <Image
+            src={props.imageURL}
+            width={382}
+            height={160}
+            alt={props.title}
+          />
         </Card.Section>
 
         <Group position="apart" mt="md" mb="xs">
