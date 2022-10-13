@@ -4,10 +4,6 @@ import styles from "../styles/Intro.module.scss";
 import { Title, Text, Image, Group } from "@mantine/core";
 
 function Intro() {
-  function scrollToAbout() {
-    window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
-  }
-
   return (
     <>
       <main className="fullflex">
