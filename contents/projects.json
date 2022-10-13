@@ -1,50 +1,32 @@
 [
   {
-    "title": "Placeholder 1",
-    "description": "Some placeholder description that could potentially be long",
-    "url": "link to the project?",
-    "github": "Github Repo",
-    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
+    "title": "Patato.live",
+    "description": "This website that you're looking at. It's built with NextJS",
+    "github": "https://github.com/PathonScript/patato.live",
+    "imageURL": "/projects/patato.png",
     "status": "Active"
   },
   {
-    "title": "Placeholder 2",
-    "description": "Some placeholder description that could potentially be long",
-    "url": "link to the project?",
-    "github": "Github Repo",
-    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
+    "title": "Digital Garden",
+    "description": "A website where I write stuffs down, wishlist, blogs, etc.",
+    "url": "https://garden.patato.live",
+    "github": "https://github.com/PathonScript/garden",
+    "imageURL": "/projects/garden.png",
     "status": "Active"
   },
   {
-    "title": "Placeholder 3",
-    "description": "Some placeholder description that could potentially be long",
-    "url": "link to the project?",
-    "github": "Github Repo",
-    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
-    "status": "Active"
+    "title": "Light Touch",
+    "description": "A website that connects long-distance relationships by a lamp",
+    "github": "https://github.com/PathonScript/LightTouch",
+    "imageURL": "/projects/lighttouch.png",
+    "status": "Inactive"
   },
   {
-    "title": "Placeholder 4",
-    "description": "Some placeholder description that could potentially be long",
+    "title": "Windowie",
+    "description": "A bot that takes a picture of my window and displaying it on a command",
     "url": "link to the project?",
-    "github": "Github Repo",
-    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
-    "status": "Active"
-  },
-  {
-    "title": "Placeholder 5",
-    "description": "Some placeholder description that could potentially be long",
-    "url": "link to the project?",
-    "github": "Github Repo",
-    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
-    "status": "Active"
-  },
-  {
-    "title": "Placeholder 6",
-    "description": "Some placeholder description that could potentially be long",
-    "url": "link to the project?",
-    "github": "Github Repo",
-    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
-    "status": "Active"
+    "github": "https://github.com/PathonScript/Windowie",
+    "imageURL": "/projects/windowie.png",
+    "status": "Inactive"
   }
 ]
