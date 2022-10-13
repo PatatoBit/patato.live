@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Placeholder 1",
+    "description": "Some placeholder description that could potentially be long",
+    "url": "link to the project?",
+    "github": "Github Repo",
+    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
+    "status": "Active"
+  },
+  {
+    "title": "Placeholder 2",
+    "description": "Some placeholder description that could potentially be long",
+    "url": "link to the project?",
+    "github": "Github Repo",
+    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
+    "status": "Active"
+  },
+  {
+    "title": "Placeholder 3",
+    "description": "Some placeholder description that could potentially be long",
+    "url": "link to the project?",
+    "github": "Github Repo",
+    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
+    "status": "Active"
+  },
+  {
+    "title": "Placeholder 4",
+    "description": "Some placeholder description that could potentially be long",
+    "url": "link to the project?",
+    "github": "Github Repo",
+    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
+    "status": "Active"
+  },
+  {
+    "title": "Placeholder 5",
+    "description": "Some placeholder description that could potentially be long",
+    "url": "link to the project?",
+    "github": "Github Repo",
+    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
+    "status": "Active"
+  },
+  {
+    "title": "Placeholder 6",
+    "description": "Some placeholder description that could potentially be long",
+    "url": "link to the project?",
+    "github": "Github Repo",
+    "imageURL": "https://images2.imgbox.com/87/66/c4DbgdON_o.jpg",
+    "status": "Active"
+  }
+]

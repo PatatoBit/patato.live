@@ -14,6 +14,7 @@ function Contacts() {
             size={40}
             component="a"
             href="https://github.com/pathonscript"
+            target="_blank"
           >
             <IconBrandGithub size={32} />
           </ActionIcon>
@@ -23,6 +24,7 @@ function Contacts() {
             size={40}
             component="a"
             href="https://twitter.com/patatotota"
+            target="_blank"
             color="blue"
           >
             <IconBrandTwitter size={32} />
@@ -33,6 +35,7 @@ function Contacts() {
             size={40}
             component="a"
             href="mailto:pathonscript@gmail.com"
+            target="_blank"
             color="red"
           >
             <IconMail size={32} />

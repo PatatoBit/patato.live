@@ -1,3 +1,36 @@
 .age {
   color: #ffa64a;
 }
+
+.container {
+  max-width: 70rem;
+  padding: 1rem;
+  display: flex;
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    justify-content: center;
+
+    hr {
+      width: 30%;
+      border: 1px solid #ffa64a;
+    }
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    flex-direction: column;
+    height: 100%;
+  }
+}
