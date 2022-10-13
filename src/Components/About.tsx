@@ -17,8 +17,8 @@ function About() {
           </Title>
           <Text className="desc" size="xl">
             Hi, I’m pat. I’m currently a
-            <span className={styles.age}> {age}</span> years old developer and a
-            gamer from Thailand. I do web development and actively trying to
+            <span className={styles.age}> {age} </span> years old developer and
+            a gamer from Thailand. I do web development and actively trying to
             create fun and useful websites and side projects.
           </Text>
           <Image
