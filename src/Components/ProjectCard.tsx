@@ -38,6 +38,7 @@ function ProjectCard(props: Project) {
         <Card.Section>
           <Image
             src={props.imageURL}
+            className={styles.image}
             width={382}
             height={160}
             alt={props.title}
