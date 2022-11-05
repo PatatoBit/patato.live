@@ -23,8 +23,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         withGlobalStyles
         withNormalizeCSS
         theme={{
-          fontFamily: "Montserrat, sans-serif",
-          headings: { fontFamily: "Montserrat, sans-serif" },
+          fontFamily: "M PLUS Rounded 1c,sans-serif",
+          headings: { fontFamily: "M PLUS Rounded 1c,sans-serif" },
           colorScheme: "dark",
           colors: {
             // override dark colors to change them for all components
