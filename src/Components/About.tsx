@@ -13,7 +13,7 @@ function About() {
     <>
       <section className="fullflex">
         <div className={styles.container}>
-          <div className={styles.section}>
+          <div className={styles.section1}>
             <Title size="h1" className="heading">
               About me
             </Title>
@@ -24,11 +24,11 @@ function About() {
               trying to create fun and useful websites and side projects.
             </Text>
           </div>
-          <div className={styles.section}>
+          <div className={styles.section2}>
             <Title align="center" size="h2" className="heading">
               Notable Projects
             </Title>
-            <hr />
+            {/* <hr /> */}
             <Projects />
           </div>
         </div>

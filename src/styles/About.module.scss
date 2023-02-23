@@ -6,7 +6,7 @@
   max-width: 70rem;
   display: flex;
 
-  .section {
+  .section1 {
     display: flex;
     margin: 0.5rem;
     flex-direction: column;
@@ -16,6 +16,20 @@
     hr {
       width: 30%;
       border: 1px solid #ffa64a;
+    }
+
+    .section2 {
+      display: flex;
+      margin: 0.5rem;
+      flex-direction: column;
+      flex: 1 1 0%;
+      justify-content: center;
+      align-items: center;
+
+      hr {
+        width: 30%;
+        border: 1px solid #ffa64a;
+      }
     }
   }
 

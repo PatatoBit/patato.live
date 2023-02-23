@@ -21,7 +21,7 @@ function Intro() {
                   style={{ alignItems: "center" }}
                   width={150}
                   height={150}
-                  src="/pfp.jpg"
+                  src="/pfp.png"
                   alt="Profile Picture"
                   radius="md"
                 />

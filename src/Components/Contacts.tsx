@@ -13,7 +13,7 @@ function Contacts() {
             variant="filled"
             size={40}
             component="a"
-            href="https://github.com/pathonscript"
+            href="https://github.com/patatotato"
             target="_blank"
           >
             <IconBrandGithub size={32} />
